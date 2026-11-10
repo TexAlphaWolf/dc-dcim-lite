@@ -1,0 +1,381 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1596 614" width="1596" height="614" font-family="Helvetica, Arial, sans-serif" role="img" aria-label="Rack elevations">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="28" y="48" font-size="12" font-weight="bold" fill="#222222">R01</text>
+<rect x="28" y="58" width="168" height="504" fill="#f4f4f4" stroke="#222222" stroke-width="1.5"/>
+<text x="24" y="511" font-size="7" text-anchor="end" fill="#888888">5</text>
+<text x="24" y="451" font-size="7" text-anchor="end" fill="#888888">10</text>
+<text x="24" y="391" font-size="7" text-anchor="end" fill="#888888">15</text>
+<text x="24" y="331" font-size="7" text-anchor="end" fill="#888888">20</text>
+<text x="24" y="271" font-size="7" text-anchor="end" fill="#888888">25</text>
+<text x="24" y="211" font-size="7" text-anchor="end" fill="#888888">30</text>
+<text x="24" y="151" font-size="7" text-anchor="end" fill="#888888">35</text>
+<text x="24" y="91" font-size="7" text-anchor="end" fill="#888888">40</text>
+<rect x="20" y="58" width="7" height="504" fill="#d55e00"><title>R01-pduA (feed A, 16000 W)</title></rect>
+<rect x="197" y="58" width="7" height="504" fill="#0072b2"><title>R01-pduB (feed B, 16000 W)</title></rect>
+<rect x="30" y="358" width="164" height="48" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-gpu-4u-07: server, units 14-17, 1812 W</title></rect>
+<text x="34" y="367" font-size="8.5" fill="#ffffff">R01-gpu-4u-07</text>
+<rect x="30" y="538" width="164" height="12" fill="#b07aa1" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-patch: patch, units 2-2, 0 W</title></rect>
+<text x="34" y="547" font-size="8.5" fill="#ffffff">R01-patch</text>
+<rect x="30" y="526" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-srv-1u-01: server, units 3-3, 374 W</title></rect>
+<text x="34" y="535" font-size="8.5" fill="#ffffff">R01-srv-1u-01</text>
+<rect x="30" y="514" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-srv-1u-02: server, units 4-4, 350 W</title></rect>
+<text x="34" y="523" font-size="8.5" fill="#ffffff">R01-srv-1u-02</text>
+<rect x="30" y="466" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-srv-1u-04: server, units 8-8, 374 W</title></rect>
+<text x="34" y="475" font-size="8.5" fill="#ffffff">R01-srv-1u-04</text>
+<rect x="30" y="346" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-srv-1u-08: server, units 18-18, 381 W</title></rect>
+<text x="34" y="355" font-size="8.5" fill="#ffffff">R01-srv-1u-08</text>
+<rect x="30" y="322" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-srv-1u-09: server, units 20-20, 345 W</title></rect>
+<text x="34" y="331" font-size="8.5" fill="#ffffff">R01-srv-1u-09</text>
+<rect x="30" y="310" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-srv-1u-10: server, units 21-21, 346 W</title></rect>
+<text x="34" y="319" font-size="8.5" fill="#ffffff">R01-srv-1u-10</text>
+<rect x="30" y="298" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-srv-1u-11: server, units 22-22, 331 W</title></rect>
+<text x="34" y="307" font-size="8.5" fill="#ffffff">R01-srv-1u-11</text>
+<rect x="30" y="274" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-srv-1u-12: server, units 24-24, 335 W</title></rect>
+<text x="34" y="283" font-size="8.5" fill="#ffffff">R01-srv-1u-12</text>
+<rect x="30" y="238" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-srv-1u-14: server, units 27-27, 384 W</title></rect>
+<text x="34" y="247" font-size="8.5" fill="#ffffff">R01-srv-1u-14</text>
+<rect x="30" y="226" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-srv-1u-15: server, units 28-28, 338 W</title></rect>
+<text x="34" y="235" font-size="8.5" fill="#ffffff">R01-srv-1u-15</text>
+<rect x="30" y="478" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-srv-2u-03: server, units 6-7, 793 W</title></rect>
+<text x="34" y="487" font-size="8.5" fill="#ffffff">R01-srv-2u-03</text>
+<rect x="30" y="418" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-srv-2u-06: server, units 11-12, 709 W</title></rect>
+<text x="34" y="427" font-size="8.5" fill="#ffffff">R01-srv-2u-06</text>
+<rect x="30" y="202" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-srv-2u-16: server, units 29-30, 815 W</title></rect>
+<text x="34" y="211" font-size="8.5" fill="#ffffff">R01-srv-2u-16</text>
+<rect x="30" y="154" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-srv-2u-18: server, units 33-34, 807 W</title></rect>
+<text x="34" y="163" font-size="8.5" fill="#ffffff">R01-srv-2u-18</text>
+<rect x="30" y="442" width="164" height="24" fill="#f28e2b" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-stor-2u-05: storage, units 9-10, 540 W</title></rect>
+<text x="34" y="451" font-size="8.5" fill="#ffffff">R01-stor-2u-05</text>
+<rect x="30" y="250" width="164" height="24" fill="#f28e2b" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-stor-2u-13: storage, units 25-26, 607 W</title></rect>
+<text x="34" y="259" font-size="8.5" fill="#ffffff">R01-stor-2u-13</text>
+<rect x="30" y="178" width="164" height="24" fill="#f28e2b" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-stor-2u-17: storage, units 31-32, 620 W</title></rect>
+<text x="34" y="187" font-size="8.5" fill="#ffffff">R01-stor-2u-17</text>
+<rect x="30" y="550" width="164" height="12" fill="#59a14f" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R01-tor: switch, units 1-1, 150 W</title></rect>
+<text x="34" y="559" font-size="8.5" fill="#ffffff">R01-tor</text>
+<rect x="30" y="502" width="164" height="12" fill="#59a14f" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>core-01: switch, units 5-5, 400 W</title></rect>
+<text x="34" y="511" font-size="8.5" fill="#ffffff">core-01</text>
+<text x="224" y="48" font-size="12" font-weight="bold" fill="#222222">R02</text>
+<rect x="224" y="58" width="168" height="504" fill="#f4f4f4" stroke="#222222" stroke-width="1.5"/>
+<text x="220" y="511" font-size="7" text-anchor="end" fill="#888888">5</text>
+<text x="220" y="451" font-size="7" text-anchor="end" fill="#888888">10</text>
+<text x="220" y="391" font-size="7" text-anchor="end" fill="#888888">15</text>
+<text x="220" y="331" font-size="7" text-anchor="end" fill="#888888">20</text>
+<text x="220" y="271" font-size="7" text-anchor="end" fill="#888888">25</text>
+<text x="220" y="211" font-size="7" text-anchor="end" fill="#888888">30</text>
+<text x="220" y="151" font-size="7" text-anchor="end" fill="#888888">35</text>
+<text x="220" y="91" font-size="7" text-anchor="end" fill="#888888">40</text>
+<rect x="216" y="58" width="7" height="504" fill="#d55e00"><title>R02-pduA (feed A, 16000 W)</title></rect>
+<rect x="393" y="58" width="7" height="504" fill="#0072b2"><title>R02-pduB (feed B, 16000 W)</title></rect>
+<rect x="226" y="322" width="164" height="48" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-gpu-4u-12: server, units 17-20, 1802 W</title></rect>
+<text x="230" y="331" font-size="8.5" fill="#ffffff">R02-gpu-4u-12</text>
+<rect x="226" y="538" width="164" height="12" fill="#b07aa1" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-patch: patch, units 2-2, 0 W</title></rect>
+<text x="230" y="547" font-size="8.5" fill="#ffffff">R02-patch</text>
+<rect x="226" y="526" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-1u-01: server, units 3-3, 371 W</title></rect>
+<text x="230" y="535" font-size="8.5" fill="#ffffff">R02-srv-1u-01</text>
+<rect x="226" y="514" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-1u-02: server, units 4-4, 353 W</title></rect>
+<text x="230" y="523" font-size="8.5" fill="#ffffff">R02-srv-1u-02</text>
+<rect x="226" y="478" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-1u-04: server, units 7-7, 369 W</title></rect>
+<text x="230" y="487" font-size="8.5" fill="#ffffff">R02-srv-1u-04</text>
+<rect x="226" y="454" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-1u-05: server, units 9-9, 349 W</title></rect>
+<text x="230" y="463" font-size="8.5" fill="#ffffff">R02-srv-1u-05</text>
+<rect x="226" y="442" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-1u-06: server, units 10-10, 364 W</title></rect>
+<text x="230" y="451" font-size="8.5" fill="#ffffff">R02-srv-1u-06</text>
+<rect x="226" y="406" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-1u-08: server, units 13-13, 384 W</title></rect>
+<text x="230" y="415" font-size="8.5" fill="#ffffff">R02-srv-1u-08</text>
+<rect x="226" y="394" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-1u-09: server, units 14-14, 375 W</title></rect>
+<text x="230" y="403" font-size="8.5" fill="#ffffff">R02-srv-1u-09</text>
+<rect x="226" y="382" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-1u-10: server, units 15-15, 382 W</title></rect>
+<text x="230" y="391" font-size="8.5" fill="#ffffff">R02-srv-1u-10</text>
+<rect x="226" y="370" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-1u-11: server, units 16-16, 334 W</title></rect>
+<text x="230" y="379" font-size="8.5" fill="#ffffff">R02-srv-1u-11</text>
+<rect x="226" y="262" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-1u-15: server, units 25-25, 319 W</title></rect>
+<text x="230" y="271" font-size="8.5" fill="#ffffff">R02-srv-1u-15</text>
+<rect x="226" y="226" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-1u-17: server, units 28-28, 340 W</title></rect>
+<text x="230" y="235" font-size="8.5" fill="#ffffff">R02-srv-1u-17</text>
+<rect x="226" y="214" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-1u-18: server, units 29-29, 359 W</title></rect>
+<text x="230" y="223" font-size="8.5" fill="#ffffff">R02-srv-1u-18</text>
+<rect x="226" y="202" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-1u-19: server, units 30-30, 317 W</title></rect>
+<text x="230" y="211" font-size="8.5" fill="#ffffff">R02-srv-1u-19</text>
+<rect x="226" y="190" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-1u-20: server, units 31-31, 356 W</title></rect>
+<text x="230" y="199" font-size="8.5" fill="#ffffff">R02-srv-1u-20</text>
+<rect x="226" y="490" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-2u-03: server, units 5-6, 731 W</title></rect>
+<text x="230" y="499" font-size="8.5" fill="#ffffff">R02-srv-2u-03</text>
+<rect x="226" y="418" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-2u-07: server, units 11-12, 734 W</title></rect>
+<text x="230" y="427" font-size="8.5" fill="#ffffff">R02-srv-2u-07</text>
+<rect x="226" y="238" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-srv-2u-16: server, units 26-27, 705 W</title></rect>
+<text x="230" y="247" font-size="8.5" fill="#ffffff">R02-srv-2u-16</text>
+<rect x="226" y="298" width="164" height="24" fill="#f28e2b" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-stor-2u-13: storage, units 21-22, 646 W</title></rect>
+<text x="230" y="307" font-size="8.5" fill="#ffffff">R02-stor-2u-13</text>
+<rect x="226" y="274" width="164" height="24" fill="#f28e2b" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-stor-2u-14: storage, units 23-24, 602 W</title></rect>
+<text x="230" y="283" font-size="8.5" fill="#ffffff">R02-stor-2u-14</text>
+<rect x="226" y="550" width="164" height="12" fill="#59a14f" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R02-tor: switch, units 1-1, 150 W</title></rect>
+<text x="230" y="559" font-size="8.5" fill="#ffffff">R02-tor</text>
+<text x="420" y="48" font-size="12" font-weight="bold" fill="#222222">R03</text>
+<rect x="420" y="58" width="168" height="504" fill="#f4f4f4" stroke="#222222" stroke-width="1.5"/>
+<text x="416" y="511" font-size="7" text-anchor="end" fill="#888888">5</text>
+<text x="416" y="451" font-size="7" text-anchor="end" fill="#888888">10</text>
+<text x="416" y="391" font-size="7" text-anchor="end" fill="#888888">15</text>
+<text x="416" y="331" font-size="7" text-anchor="end" fill="#888888">20</text>
+<text x="416" y="271" font-size="7" text-anchor="end" fill="#888888">25</text>
+<text x="416" y="211" font-size="7" text-anchor="end" fill="#888888">30</text>
+<text x="416" y="151" font-size="7" text-anchor="end" fill="#888888">35</text>
+<text x="416" y="91" font-size="7" text-anchor="end" fill="#888888">40</text>
+<rect x="412" y="58" width="7" height="504" fill="#d55e00"><title>R03-pduA (feed A, 16000 W)</title></rect>
+<rect x="589" y="58" width="7" height="504" fill="#0072b2"><title>R03-pduB (feed B, 16000 W)</title></rect>
+<rect x="422" y="238" width="164" height="48" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-gpu-4u-14: server, units 24-27, 2119 W</title></rect>
+<text x="426" y="247" font-size="8.5" fill="#ffffff">R03-gpu-4u-14</text>
+<rect x="422" y="538" width="164" height="12" fill="#b07aa1" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-patch: patch, units 2-2, 0 W</title></rect>
+<text x="426" y="547" font-size="8.5" fill="#ffffff">R03-patch</text>
+<rect x="422" y="526" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-srv-1u-01: server, units 3-3, 374 W</title></rect>
+<text x="426" y="535" font-size="8.5" fill="#ffffff">R03-srv-1u-01</text>
+<rect x="422" y="502" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-srv-1u-02: server, units 5-5, 316 W</title></rect>
+<text x="426" y="511" font-size="8.5" fill="#ffffff">R03-srv-1u-02</text>
+<rect x="422" y="418" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-srv-1u-05: server, units 12-12, 352 W</title></rect>
+<text x="426" y="427" font-size="8.5" fill="#ffffff">R03-srv-1u-05</text>
+<rect x="422" y="406" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#c00000" stroke-width="2.5"><title>R03-srv-1u-06: server, units 13-13, 365 W</title></rect>
+<text x="426" y="415" font-size="8.5" fill="#ffffff">R03-srv-1u-06</text>
+<rect x="422" y="382" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-srv-1u-07: server, units 15-15, 348 W</title></rect>
+<text x="426" y="391" font-size="8.5" fill="#ffffff">R03-srv-1u-07</text>
+<rect x="422" y="370" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-srv-1u-08: server, units 16-16, 344 W</title></rect>
+<text x="426" y="379" font-size="8.5" fill="#ffffff">R03-srv-1u-08</text>
+<rect x="422" y="358" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-srv-1u-09: server, units 17-17, 378 W</title></rect>
+<text x="426" y="367" font-size="8.5" fill="#ffffff">R03-srv-1u-09</text>
+<rect x="422" y="346" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-srv-1u-10: server, units 18-18, 357 W</title></rect>
+<text x="426" y="355" font-size="8.5" fill="#ffffff">R03-srv-1u-10</text>
+<rect x="422" y="334" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-srv-1u-11: server, units 19-19, 316 W</title></rect>
+<text x="426" y="343" font-size="8.5" fill="#ffffff">R03-srv-1u-11</text>
+<rect x="422" y="226" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-srv-1u-15: server, units 28-28, 360 W</title></rect>
+<text x="426" y="235" font-size="8.5" fill="#ffffff">R03-srv-1u-15</text>
+<rect x="422" y="190" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-srv-1u-17: server, units 31-31, 336 W</title></rect>
+<text x="426" y="199" font-size="8.5" fill="#ffffff">R03-srv-1u-17</text>
+<rect x="422" y="430" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-srv-2u-04: server, units 10-11, 727 W</title></rect>
+<text x="426" y="439" font-size="8.5" fill="#ffffff">R03-srv-2u-04</text>
+<rect x="422" y="310" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-srv-2u-12: server, units 20-21, 699 W</title></rect>
+<text x="426" y="319" font-size="8.5" fill="#ffffff">R03-srv-2u-12</text>
+<rect x="422" y="286" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-srv-2u-13: server, units 22-23, 757 W</title></rect>
+<text x="426" y="295" font-size="8.5" fill="#ffffff">R03-srv-2u-13</text>
+<rect x="422" y="202" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-srv-2u-16: server, units 29-30, 723 W</title></rect>
+<text x="426" y="211" font-size="8.5" fill="#ffffff">R03-srv-2u-16</text>
+<rect x="422" y="466" width="164" height="24" fill="#f28e2b" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-stor-2u-03: storage, units 7-8, 570 W</title></rect>
+<text x="426" y="475" font-size="8.5" fill="#ffffff">R03-stor-2u-03</text>
+<rect x="422" y="166" width="164" height="24" fill="#f28e2b" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-stor-2u-18: storage, units 32-33, 577 W</title></rect>
+<text x="426" y="175" font-size="8.5" fill="#ffffff">R03-stor-2u-18</text>
+<rect x="422" y="550" width="164" height="12" fill="#59a14f" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R03-tor: switch, units 1-1, 150 W</title></rect>
+<text x="426" y="559" font-size="8.5" fill="#ffffff">R03-tor</text>
+<text x="616" y="48" font-size="12" font-weight="bold" fill="#222222">R04</text>
+<rect x="616" y="58" width="168" height="504" fill="#f4f4f4" stroke="#222222" stroke-width="1.5"/>
+<text x="612" y="511" font-size="7" text-anchor="end" fill="#888888">5</text>
+<text x="612" y="451" font-size="7" text-anchor="end" fill="#888888">10</text>
+<text x="612" y="391" font-size="7" text-anchor="end" fill="#888888">15</text>
+<text x="612" y="331" font-size="7" text-anchor="end" fill="#888888">20</text>
+<text x="612" y="271" font-size="7" text-anchor="end" fill="#888888">25</text>
+<text x="612" y="211" font-size="7" text-anchor="end" fill="#888888">30</text>
+<text x="612" y="151" font-size="7" text-anchor="end" fill="#888888">35</text>
+<text x="612" y="91" font-size="7" text-anchor="end" fill="#888888">40</text>
+<rect x="608" y="58" width="7" height="504" fill="#d55e00"><title>R04-pduA (feed A, 16000 W)</title></rect>
+<rect x="785" y="58" width="7" height="504" fill="#0072b2"><title>R04-pduB (feed B, 16000 W)</title></rect>
+<rect x="618" y="442" width="164" height="48" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-gpu-4u-03: server, units 7-10, 2028 W</title></rect>
+<text x="622" y="451" font-size="8.5" fill="#ffffff">R04-gpu-4u-03</text>
+<rect x="618" y="538" width="164" height="12" fill="#b07aa1" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-patch: patch, units 2-2, 0 W</title></rect>
+<text x="622" y="547" font-size="8.5" fill="#ffffff">R04-patch</text>
+<rect x="618" y="514" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-srv-1u-01: server, units 4-4, 333 W</title></rect>
+<text x="622" y="523" font-size="8.5" fill="#ffffff">R04-srv-1u-01</text>
+<rect x="618" y="406" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-srv-1u-05: server, units 13-13, 341 W</title></rect>
+<text x="622" y="415" font-size="8.5" fill="#ffffff">R04-srv-1u-05</text>
+<rect x="618" y="394" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-srv-1u-06: server, units 14-14, 362 W</title></rect>
+<text x="622" y="403" font-size="8.5" fill="#ffffff">R04-srv-1u-06</text>
+<rect x="618" y="382" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-srv-1u-07: server, units 15-15, 322 W</title></rect>
+<text x="622" y="391" font-size="8.5" fill="#ffffff">R04-srv-1u-07</text>
+<rect x="618" y="370" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-srv-1u-08: server, units 16-16, 350 W</title></rect>
+<text x="622" y="379" font-size="8.5" fill="#ffffff">R04-srv-1u-08</text>
+<rect x="618" y="322" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-srv-1u-10: server, units 20-20, 338 W</title></rect>
+<text x="622" y="331" font-size="8.5" fill="#ffffff">R04-srv-1u-10</text>
+<rect x="618" y="262" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-srv-1u-13: server, units 25-25, 377 W</title></rect>
+<text x="622" y="271" font-size="8.5" fill="#ffffff">R04-srv-1u-13</text>
+<rect x="618" y="250" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-srv-1u-14: server, units 26-26, 384 W</title></rect>
+<text x="622" y="259" font-size="8.5" fill="#ffffff">R04-srv-1u-14</text>
+<rect x="618" y="274" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-srv-2u-12: server, units 23-24, 801 W</title></rect>
+<text x="622" y="283" font-size="8.5" fill="#ffffff">R04-srv-2u-12</text>
+<rect x="618" y="226" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-srv-2u-15: server, units 27-28, 688 W</title></rect>
+<text x="622" y="235" font-size="8.5" fill="#ffffff">R04-srv-2u-15</text>
+<rect x="618" y="490" width="164" height="24" fill="#f28e2b" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-stor-2u-02: storage, units 5-6, 545 W</title></rect>
+<text x="622" y="499" font-size="8.5" fill="#ffffff">R04-stor-2u-02</text>
+<rect x="618" y="418" width="164" height="24" fill="#f28e2b" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-stor-2u-04: storage, units 11-12, 657 W</title></rect>
+<text x="622" y="427" font-size="8.5" fill="#ffffff">R04-stor-2u-04</text>
+<rect x="618" y="334" width="164" height="24" fill="#f28e2b" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-stor-2u-09: storage, units 18-19, 648 W</title></rect>
+<text x="622" y="343" font-size="8.5" fill="#ffffff">R04-stor-2u-09</text>
+<rect x="618" y="298" width="164" height="24" fill="#f28e2b" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-stor-2u-11: storage, units 21-22, 581 W</title></rect>
+<text x="622" y="307" font-size="8.5" fill="#ffffff">R04-stor-2u-11</text>
+<rect x="618" y="550" width="164" height="12" fill="#59a14f" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R04-tor: switch, units 1-1, 150 W</title></rect>
+<text x="622" y="559" font-size="8.5" fill="#ffffff">R04-tor</text>
+<text x="812" y="48" font-size="12" font-weight="bold" fill="#222222">R05</text>
+<rect x="812" y="58" width="168" height="504" fill="#f4f4f4" stroke="#222222" stroke-width="1.5"/>
+<text x="808" y="511" font-size="7" text-anchor="end" fill="#888888">5</text>
+<text x="808" y="451" font-size="7" text-anchor="end" fill="#888888">10</text>
+<text x="808" y="391" font-size="7" text-anchor="end" fill="#888888">15</text>
+<text x="808" y="331" font-size="7" text-anchor="end" fill="#888888">20</text>
+<text x="808" y="271" font-size="7" text-anchor="end" fill="#888888">25</text>
+<text x="808" y="211" font-size="7" text-anchor="end" fill="#888888">30</text>
+<text x="808" y="151" font-size="7" text-anchor="end" fill="#888888">35</text>
+<text x="808" y="91" font-size="7" text-anchor="end" fill="#888888">40</text>
+<rect x="804" y="58" width="7" height="504" fill="#d55e00"><title>R05-pduA (feed A, 16000 W)</title></rect>
+<rect x="981" y="58" width="7" height="504" fill="#0072b2"><title>R05-pduB (feed B, 16000 W)</title></rect>
+<rect x="814" y="298" width="164" height="48" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R05-gpu-4u-10: server, units 19-22, 1983 W</title></rect>
+<text x="818" y="307" font-size="8.5" fill="#ffffff">R05-gpu-4u-10</text>
+<rect x="814" y="538" width="164" height="12" fill="#b07aa1" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R05-patch: patch, units 2-2, 0 W</title></rect>
+<text x="818" y="547" font-size="8.5" fill="#ffffff">R05-patch</text>
+<rect x="814" y="502" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R05-srv-1u-02: server, units 5-5, 335 W</title></rect>
+<text x="818" y="511" font-size="8.5" fill="#ffffff">R05-srv-1u-02</text>
+<rect x="814" y="454" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R05-srv-1u-04: server, units 9-9, 354 W</title></rect>
+<text x="818" y="463" font-size="8.5" fill="#ffffff">R05-srv-1u-04</text>
+<rect x="814" y="442" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R05-srv-1u-05: server, units 10-10, 320 W</title></rect>
+<text x="818" y="451" font-size="8.5" fill="#ffffff">R05-srv-1u-05</text>
+<rect x="814" y="346" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R05-srv-1u-09: server, units 18-18, 377 W</title></rect>
+<text x="818" y="355" font-size="8.5" fill="#ffffff">R05-srv-1u-09</text>
+<rect x="814" y="514" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R05-srv-2u-01: server, units 3-4, 801 W</title></rect>
+<text x="818" y="523" font-size="8.5" fill="#ffffff">R05-srv-2u-01</text>
+<rect x="814" y="478" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R05-srv-2u-03: server, units 6-7, 818 W</title></rect>
+<text x="818" y="487" font-size="8.5" fill="#ffffff">R05-srv-2u-03</text>
+<rect x="814" y="394" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R05-srv-2u-07: server, units 13-14, 792 W</title></rect>
+<text x="818" y="403" font-size="8.5" fill="#ffffff">R05-srv-2u-07</text>
+<rect x="814" y="358" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R05-srv-2u-08: server, units 16-17, 709 W</title></rect>
+<text x="818" y="367" font-size="8.5" fill="#ffffff">R05-srv-2u-08</text>
+<rect x="814" y="226" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R05-srv-2u-12: server, units 27-28, 689 W</title></rect>
+<text x="818" y="235" font-size="8.5" fill="#ffffff">R05-srv-2u-12</text>
+<rect x="814" y="418" width="164" height="24" fill="#f28e2b" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R05-stor-2u-06: storage, units 11-12, 639 W</title></rect>
+<text x="818" y="427" font-size="8.5" fill="#ffffff">R05-stor-2u-06</text>
+<rect x="814" y="262" width="164" height="24" fill="#f28e2b" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R05-stor-2u-11: storage, units 24-25, 639 W</title></rect>
+<text x="818" y="271" font-size="8.5" fill="#ffffff">R05-stor-2u-11</text>
+<rect x="814" y="202" width="164" height="24" fill="#f28e2b" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R05-stor-2u-13: storage, units 29-30, 545 W</title></rect>
+<text x="818" y="211" font-size="8.5" fill="#ffffff">R05-stor-2u-13</text>
+<rect x="814" y="550" width="164" height="12" fill="#59a14f" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R05-tor: switch, units 1-1, 150 W</title></rect>
+<text x="818" y="559" font-size="8.5" fill="#ffffff">R05-tor</text>
+<text x="1008" y="48" font-size="12" font-weight="bold" fill="#222222">R06</text>
+<rect x="1008" y="58" width="168" height="504" fill="#f4f4f4" stroke="#222222" stroke-width="1.5"/>
+<text x="1004" y="511" font-size="7" text-anchor="end" fill="#888888">5</text>
+<text x="1004" y="451" font-size="7" text-anchor="end" fill="#888888">10</text>
+<text x="1004" y="391" font-size="7" text-anchor="end" fill="#888888">15</text>
+<text x="1004" y="331" font-size="7" text-anchor="end" fill="#888888">20</text>
+<text x="1004" y="271" font-size="7" text-anchor="end" fill="#888888">25</text>
+<text x="1004" y="211" font-size="7" text-anchor="end" fill="#888888">30</text>
+<text x="1004" y="151" font-size="7" text-anchor="end" fill="#888888">35</text>
+<text x="1004" y="91" font-size="7" text-anchor="end" fill="#888888">40</text>
+<rect x="1000" y="58" width="7" height="504" fill="#d55e00"><title>R06-pduA (feed A, 16000 W)</title></rect>
+<rect x="1177" y="58" width="7" height="504" fill="#0072b2"><title>R06-pduB (feed B, 16000 W)</title></rect>
+<rect x="1010" y="466" width="164" height="48" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R06-gpu-4u-03: server, units 5-8, 2164 W</title></rect>
+<text x="1014" y="475" font-size="8.5" fill="#ffffff">R06-gpu-4u-03</text>
+<rect x="1010" y="358" width="164" height="48" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R06-gpu-4u-06: server, units 14-17, 1918 W</title></rect>
+<text x="1014" y="367" font-size="8.5" fill="#ffffff">R06-gpu-4u-06</text>
+<rect x="1010" y="286" width="164" height="48" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R06-gpu-4u-08: server, units 20-23, 2188 W</title></rect>
+<text x="1014" y="295" font-size="8.5" fill="#ffffff">R06-gpu-4u-08</text>
+<rect x="1010" y="538" width="164" height="12" fill="#b07aa1" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R06-patch: patch, units 2-2, 0 W</title></rect>
+<text x="1014" y="547" font-size="8.5" fill="#ffffff">R06-patch</text>
+<rect x="1010" y="526" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R06-srv-1u-01: server, units 3-3, 332 W</title></rect>
+<text x="1014" y="535" font-size="8.5" fill="#ffffff">R06-srv-1u-01</text>
+<rect x="1010" y="514" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R06-srv-1u-02: server, units 4-4, 379 W</title></rect>
+<text x="1014" y="523" font-size="8.5" fill="#ffffff">R06-srv-1u-02</text>
+<rect x="1010" y="442" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R06-srv-1u-04: server, units 10-10, 348 W</title></rect>
+<text x="1014" y="451" font-size="8.5" fill="#ffffff">R06-srv-1u-04</text>
+<rect x="1010" y="334" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#c00000" stroke-width="2.5"><title>R06-srv-1u-07: server, units 19-19, 337 W</title></rect>
+<text x="1014" y="343" font-size="8.5" fill="#ffffff">R06-srv-1u-07</text>
+<rect x="1010" y="274" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R06-srv-1u-09: server, units 24-24, 330 W</title></rect>
+<text x="1014" y="283" font-size="8.5" fill="#ffffff">R06-srv-1u-09</text>
+<rect x="1010" y="406" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R06-srv-2u-05: server, units 12-13, 681 W</title></rect>
+<text x="1014" y="415" font-size="8.5" fill="#ffffff">R06-srv-2u-05</text>
+<rect x="1010" y="550" width="164" height="12" fill="#59a14f" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R06-tor: switch, units 1-1, 150 W</title></rect>
+<text x="1014" y="559" font-size="8.5" fill="#ffffff">R06-tor</text>
+<text x="1204" y="48" font-size="12" font-weight="bold" fill="#222222">R07</text>
+<rect x="1204" y="58" width="168" height="504" fill="#f4f4f4" stroke="#222222" stroke-width="1.5"/>
+<text x="1200" y="511" font-size="7" text-anchor="end" fill="#888888">5</text>
+<text x="1200" y="451" font-size="7" text-anchor="end" fill="#888888">10</text>
+<text x="1200" y="391" font-size="7" text-anchor="end" fill="#888888">15</text>
+<text x="1200" y="331" font-size="7" text-anchor="end" fill="#888888">20</text>
+<text x="1200" y="271" font-size="7" text-anchor="end" fill="#888888">25</text>
+<text x="1200" y="211" font-size="7" text-anchor="end" fill="#888888">30</text>
+<text x="1200" y="151" font-size="7" text-anchor="end" fill="#888888">35</text>
+<text x="1200" y="91" font-size="7" text-anchor="end" fill="#888888">40</text>
+<rect x="1196" y="58" width="7" height="504" fill="#d55e00"><title>R07-pduA (feed A, 16000 W)</title></rect>
+<rect x="1373" y="58" width="7" height="504" fill="#0072b2"><title>R07-pduB (feed B, 16000 W)</title></rect>
+<rect x="1206" y="226" width="164" height="48" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R07-gpu-4u-14: server, units 25-28, 1869 W</title></rect>
+<text x="1210" y="235" font-size="8.5" fill="#ffffff">R07-gpu-4u-14</text>
+<rect x="1206" y="538" width="164" height="12" fill="#b07aa1" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R07-patch: patch, units 2-2, 0 W</title></rect>
+<text x="1210" y="547" font-size="8.5" fill="#ffffff">R07-patch</text>
+<rect x="1206" y="490" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R07-srv-1u-02: server, units 6-6, 332 W</title></rect>
+<text x="1210" y="499" font-size="8.5" fill="#ffffff">R07-srv-1u-02</text>
+<rect x="1206" y="478" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R07-srv-1u-03: server, units 7-7, 384 W</title></rect>
+<text x="1210" y="487" font-size="8.5" fill="#ffffff">R07-srv-1u-03</text>
+<rect x="1206" y="442" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R07-srv-1u-05: server, units 10-10, 336 W</title></rect>
+<text x="1210" y="451" font-size="8.5" fill="#ffffff">R07-srv-1u-05</text>
+<rect x="1206" y="430" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R07-srv-1u-06: server, units 11-11, 374 W</title></rect>
+<text x="1210" y="439" font-size="8.5" fill="#ffffff">R07-srv-1u-06</text>
+<rect x="1206" y="418" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R07-srv-1u-07: server, units 12-12, 338 W</title></rect>
+<text x="1210" y="427" font-size="8.5" fill="#ffffff">R07-srv-1u-07</text>
+<rect x="1206" y="370" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R07-srv-1u-09: server, units 16-16, 332 W</title></rect>
+<text x="1210" y="379" font-size="8.5" fill="#ffffff">R07-srv-1u-09</text>
+<rect x="1206" y="298" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R07-srv-1u-12: server, units 22-22, 375 W</title></rect>
+<text x="1210" y="307" font-size="8.5" fill="#ffffff">R07-srv-1u-12</text>
+<rect x="1206" y="274" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R07-srv-1u-13: server, units 24-24, 371 W</title></rect>
+<text x="1210" y="283" font-size="8.5" fill="#ffffff">R07-srv-1u-13</text>
+<rect x="1206" y="514" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R07-srv-2u-01: server, units 3-4, 714 W</title></rect>
+<text x="1210" y="523" font-size="8.5" fill="#ffffff">R07-srv-2u-01</text>
+<rect x="1206" y="454" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#c00000" stroke-width="2.5"><title>R07-srv-2u-04: server, units 8-9, 772 W</title></rect>
+<text x="1210" y="463" font-size="8.5" fill="#ffffff">R07-srv-2u-04</text>
+<rect x="1206" y="394" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R07-srv-2u-08: server, units 13-14, 764 W</title></rect>
+<text x="1210" y="403" font-size="8.5" fill="#ffffff">R07-srv-2u-08</text>
+<rect x="1206" y="334" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R07-srv-2u-10: server, units 18-19, 686 W</title></rect>
+<text x="1210" y="343" font-size="8.5" fill="#ffffff">R07-srv-2u-10</text>
+<rect x="1206" y="310" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R07-srv-2u-11: server, units 20-21, 719 W</title></rect>
+<text x="1210" y="319" font-size="8.5" fill="#ffffff">R07-srv-2u-11</text>
+<rect x="1206" y="550" width="164" height="12" fill="#59a14f" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R07-tor: switch, units 1-1, 150 W</title></rect>
+<text x="1210" y="559" font-size="8.5" fill="#ffffff">R07-tor</text>
+<text x="1400" y="48" font-size="12" font-weight="bold" fill="#222222">R08</text>
+<rect x="1400" y="58" width="168" height="504" fill="#f4f4f4" stroke="#222222" stroke-width="1.5"/>
+<text x="1396" y="511" font-size="7" text-anchor="end" fill="#888888">5</text>
+<text x="1396" y="451" font-size="7" text-anchor="end" fill="#888888">10</text>
+<text x="1396" y="391" font-size="7" text-anchor="end" fill="#888888">15</text>
+<text x="1396" y="331" font-size="7" text-anchor="end" fill="#888888">20</text>
+<text x="1396" y="271" font-size="7" text-anchor="end" fill="#888888">25</text>
+<text x="1396" y="211" font-size="7" text-anchor="end" fill="#888888">30</text>
+<text x="1396" y="151" font-size="7" text-anchor="end" fill="#888888">35</text>
+<text x="1396" y="91" font-size="7" text-anchor="end" fill="#888888">40</text>
+<rect x="1392" y="58" width="7" height="504" fill="#d55e00"><title>R08-pduA (feed A, 16000 W)</title></rect>
+<rect x="1569" y="58" width="7" height="504" fill="#0072b2"><title>R08-pduB (feed B, 16000 W)</title></rect>
+<rect x="1402" y="466" width="164" height="48" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-gpu-4u-03: server, units 5-8, 1813 W</title></rect>
+<text x="1406" y="475" font-size="8.5" fill="#ffffff">R08-gpu-4u-03</text>
+<rect x="1402" y="418" width="164" height="48" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-gpu-4u-04: server, units 9-12, 2122 W</title></rect>
+<text x="1406" y="427" font-size="8.5" fill="#ffffff">R08-gpu-4u-04</text>
+<rect x="1402" y="538" width="164" height="12" fill="#b07aa1" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-patch: patch, units 2-2, 0 W</title></rect>
+<text x="1406" y="547" font-size="8.5" fill="#ffffff">R08-patch</text>
+<rect x="1402" y="526" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-srv-1u-01: server, units 3-3, 351 W</title></rect>
+<text x="1406" y="535" font-size="8.5" fill="#ffffff">R08-srv-1u-01</text>
+<rect x="1402" y="514" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-srv-1u-02: server, units 4-4, 378 W</title></rect>
+<text x="1406" y="523" font-size="8.5" fill="#ffffff">R08-srv-1u-02</text>
+<rect x="1402" y="382" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-srv-1u-06: server, units 15-15, 345 W</title></rect>
+<text x="1406" y="391" font-size="8.5" fill="#ffffff">R08-srv-1u-06</text>
+<rect x="1402" y="346" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-srv-1u-08: server, units 18-18, 382 W</title></rect>
+<text x="1406" y="355" font-size="8.5" fill="#ffffff">R08-srv-1u-08</text>
+<rect x="1402" y="334" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-srv-1u-09: server, units 19-19, 353 W</title></rect>
+<text x="1406" y="343" font-size="8.5" fill="#ffffff">R08-srv-1u-09</text>
+<rect x="1402" y="322" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-srv-1u-10: server, units 20-20, 343 W</title></rect>
+<text x="1406" y="331" font-size="8.5" fill="#ffffff">R08-srv-1u-10</text>
+<rect x="1402" y="310" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-srv-1u-11: server, units 21-21, 317 W</title></rect>
+<text x="1406" y="319" font-size="8.5" fill="#ffffff">R08-srv-1u-11</text>
+<rect x="1402" y="286" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-srv-1u-12: server, units 23-23, 355 W</title></rect>
+<text x="1406" y="295" font-size="8.5" fill="#ffffff">R08-srv-1u-12</text>
+<rect x="1402" y="274" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-srv-1u-13: server, units 24-24, 325 W</title></rect>
+<text x="1406" y="283" font-size="8.5" fill="#ffffff">R08-srv-1u-13</text>
+<rect x="1402" y="262" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-srv-1u-14: server, units 25-25, 373 W</title></rect>
+<text x="1406" y="271" font-size="8.5" fill="#ffffff">R08-srv-1u-14</text>
+<rect x="1402" y="250" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-srv-1u-15: server, units 26-26, 358 W</title></rect>
+<text x="1406" y="259" font-size="8.5" fill="#ffffff">R08-srv-1u-15</text>
+<rect x="1402" y="238" width="164" height="12" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-srv-1u-16: server, units 27-27, 352 W</title></rect>
+<text x="1406" y="247" font-size="8.5" fill="#ffffff">R08-srv-1u-16</text>
+<rect x="1402" y="358" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-srv-2u-07: server, units 16-17, 775 W</title></rect>
+<text x="1406" y="367" font-size="8.5" fill="#ffffff">R08-srv-2u-07</text>
+<rect x="1402" y="214" width="164" height="24" fill="#4c78a8" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-srv-2u-17: server, units 28-29, 741 W</title></rect>
+<text x="1406" y="223" font-size="8.5" fill="#ffffff">R08-srv-2u-17</text>
+<rect x="1402" y="394" width="164" height="24" fill="#f28e2b" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-stor-2u-05: storage, units 13-14, 630 W</title></rect>
+<text x="1406" y="403" font-size="8.5" fill="#ffffff">R08-stor-2u-05</text>
+<rect x="1402" y="550" width="164" height="12" fill="#59a14f" fill-opacity="0.85" stroke="#ffffff" stroke-width="0.8"><title>R08-tor: switch, units 1-1, 150 W</title></rect>
+<text x="1406" y="559" font-size="8.5" fill="#ffffff">R08-tor</text>
+</svg>

@@ -1,0 +1,828 @@
+{
+ "kind": "report",
+ "source": "demo data center (synthetic, 24 racks, seed 1, with injected faults)",
+ "summary": {
+  "racks": 24,
+  "devices": 473,
+  "ports": 7514,
+  "cables": 1953,
+  "by_kind": {
+   "patch": 24,
+   "pdu": 48,
+   "server": 319,
+   "storage": 57,
+   "switch": 25
+  }
+ },
+ "findings": {
+  "total": 12,
+  "by_rule": {
+   "overlap": 0,
+   "out_of_rack": 0,
+   "double_connected": 1,
+   "open_cable": 1,
+   "kind_mismatch": 2,
+   "self_loop": 0,
+   "no_power": 2,
+   "single_feed": 1,
+   "same_feed": 2,
+   "rack_power": 2,
+   "pdu_overload": 0,
+   "failover_overload": 1
+  },
+  "shown": [
+   {
+    "rule": "double_connected",
+    "subject": "R03-srv-1u-06:eth0",
+    "detail": "R03-srv-1u-06:eth0 has 2 cables"
+   },
+   {
+    "rule": "open_cable",
+    "subject": "cable:1956",
+    "detail": "cable 1956 is plugged in at R15-srv-1u-08:eth3 only"
+   },
+   {
+    "rule": "kind_mismatch",
+    "subject": "cable:1955",
+    "detail": "net cable 1955 is on ports it does not suit"
+   },
+   {
+    "rule": "kind_mismatch",
+    "subject": "cable:1958",
+    "detail": "net cable 1958 is on ports it does not suit"
+   },
+   {
+    "rule": "no_power",
+    "subject": "R22-srv-1u-01",
+    "detail": "R22-srv-1u-01 is connected to no PDU"
+   },
+   {
+    "rule": "no_power",
+    "subject": "R24-srv-1u-16",
+    "detail": "R24-srv-1u-16 is connected to no PDU"
+   },
+   {
+    "rule": "single_feed",
+    "subject": "R17-srv-1u-11",
+    "detail": "R17-srv-1u-11 draws from R17-pduA only"
+   },
+   {
+    "rule": "same_feed",
+    "subject": "R06-srv-1u-07",
+    "detail": "R06-srv-1u-07 draws only from feed A"
+   },
+   {
+    "rule": "same_feed",
+    "subject": "R07-srv-2u-04",
+    "detail": "R07-srv-2u-04 draws only from feed A"
+   },
+   {
+    "rule": "rack_power",
+    "subject": "R12",
+    "detail": "R12 has 13083 W allocated of 12000 W"
+   },
+   {
+    "rule": "rack_power",
+    "subject": "R14",
+    "detail": "R14 has 13428 W allocated of 12000 W"
+   },
+   {
+    "rule": "failover_overload",
+    "subject": "R21-pduA",
+    "detail": "R21-pduA would carry 7822 W of 5864 W alone"
+   }
+  ]
+ },
+ "racks": [
+  {
+   "name": "R01",
+   "units": 42,
+   "used_u": 31,
+   "devices": 21,
+   "allocated_w": 8643,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R01-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 4318,
+     "failover_w": 8643
+    },
+    {
+     "name": "R01-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 4318,
+     "failover_w": 8643
+    }
+   ]
+  },
+  {
+   "name": "R02",
+   "units": 42,
+   "used_u": 30,
+   "devices": 22,
+   "allocated_w": 8266,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R02-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 4127,
+     "failover_w": 8266
+    },
+    {
+     "name": "R02-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 4127,
+     "failover_w": 8266
+    }
+   ]
+  },
+  {
+   "name": "R03",
+   "units": 42,
+   "used_u": 29,
+   "devices": 20,
+   "allocated_w": 8127,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R03-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 4059,
+     "failover_w": 8127
+    },
+    {
+     "name": "R03-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 4059,
+     "failover_w": 8127
+    }
+   ]
+  },
+  {
+   "name": "R04",
+   "units": 42,
+   "used_u": 26,
+   "devices": 17,
+   "allocated_w": 7117,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R04-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 3556,
+     "failover_w": 7117
+    },
+    {
+     "name": "R04-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 3556,
+     "failover_w": 7117
+    }
+   ]
+  },
+  {
+   "name": "R05",
+   "units": 42,
+   "used_u": 26,
+   "devices": 15,
+   "allocated_w": 7317,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R05-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 3655,
+     "failover_w": 7317
+    },
+    {
+     "name": "R05-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 3655,
+     "failover_w": 7317
+    }
+   ]
+  },
+  {
+   "name": "R06",
+   "units": 42,
+   "used_u": 21,
+   "devices": 11,
+   "allocated_w": 7058,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R06-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 3661,
+     "failover_w": 7058
+    },
+    {
+     "name": "R06-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 3393,
+     "failover_w": 6789
+    }
+   ]
+  },
+  {
+   "name": "R07",
+   "units": 42,
+   "used_u": 24,
+   "devices": 16,
+   "allocated_w": 6807,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R07-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 3707,
+     "failover_w": 6807
+    },
+    {
+     "name": "R07-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 3091,
+     "failover_w": 6190
+    }
+   ]
+  },
+  {
+   "name": "R08",
+   "units": 42,
+   "used_u": 28,
+   "devices": 19,
+   "allocated_w": 8364,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R08-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 4180,
+     "failover_w": 8364
+    },
+    {
+     "name": "R08-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 4180,
+     "failover_w": 8364
+    }
+   ]
+  },
+  {
+   "name": "R09",
+   "units": 42,
+   "used_u": 27,
+   "devices": 17,
+   "allocated_w": 8314,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R09-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 4155,
+     "failover_w": 8314
+    },
+    {
+     "name": "R09-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 4155,
+     "failover_w": 8314
+    }
+   ]
+  },
+  {
+   "name": "R10",
+   "units": 42,
+   "used_u": 24,
+   "devices": 14,
+   "allocated_w": 7330,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R10-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 3663,
+     "failover_w": 7330
+    },
+    {
+     "name": "R10-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 3663,
+     "failover_w": 7330
+    }
+   ]
+  },
+  {
+   "name": "R11",
+   "units": 42,
+   "used_u": 28,
+   "devices": 17,
+   "allocated_w": 8056,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R11-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 4024,
+     "failover_w": 8056
+    },
+    {
+     "name": "R11-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 4024,
+     "failover_w": 8056
+    }
+   ]
+  },
+  {
+   "name": "R12",
+   "units": 42,
+   "used_u": 29,
+   "devices": 22,
+   "allocated_w": 13083,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R12-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 6538,
+     "failover_w": 13083
+    },
+    {
+     "name": "R12-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 6538,
+     "failover_w": 13083
+    }
+   ]
+  },
+  {
+   "name": "R13",
+   "units": 42,
+   "used_u": 29,
+   "devices": 20,
+   "allocated_w": 8148,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R13-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 4069,
+     "failover_w": 8148
+    },
+    {
+     "name": "R13-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 4069,
+     "failover_w": 8148
+    }
+   ]
+  },
+  {
+   "name": "R14",
+   "units": 42,
+   "used_u": 27,
+   "devices": 13,
+   "allocated_w": 13428,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R14-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 6711,
+     "failover_w": 13428
+    },
+    {
+     "name": "R14-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 6711,
+     "failover_w": 13428
+    }
+   ]
+  },
+  {
+   "name": "R15",
+   "units": 42,
+   "used_u": 31,
+   "devices": 18,
+   "allocated_w": 8352,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R15-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 4173,
+     "failover_w": 8352
+    },
+    {
+     "name": "R15-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 4173,
+     "failover_w": 8352
+    }
+   ]
+  },
+  {
+   "name": "R16",
+   "units": 42,
+   "used_u": 30,
+   "devices": 19,
+   "allocated_w": 8350,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R16-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 4173,
+     "failover_w": 8350
+    },
+    {
+     "name": "R16-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 4173,
+     "failover_w": 8350
+    }
+   ]
+  },
+  {
+   "name": "R17",
+   "units": 42,
+   "used_u": 27,
+   "devices": 18,
+   "allocated_w": 8343,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R17-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 4296,
+     "failover_w": 8343
+    },
+    {
+     "name": "R17-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 4039,
+     "failover_w": 8086
+    }
+   ]
+  },
+  {
+   "name": "R18",
+   "units": 42,
+   "used_u": 29,
+   "devices": 18,
+   "allocated_w": 8125,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R18-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 4060,
+     "failover_w": 8125
+    },
+    {
+     "name": "R18-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 4060,
+     "failover_w": 8125
+    }
+   ]
+  },
+  {
+   "name": "R19",
+   "units": 42,
+   "used_u": 27,
+   "devices": 17,
+   "allocated_w": 8317,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R19-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 4157,
+     "failover_w": 8317
+    },
+    {
+     "name": "R19-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 4157,
+     "failover_w": 8317
+    }
+   ]
+  },
+  {
+   "name": "R20",
+   "units": 42,
+   "used_u": 29,
+   "devices": 18,
+   "allocated_w": 8320,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R20-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 4157,
+     "failover_w": 8320
+    },
+    {
+     "name": "R20-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 4157,
+     "failover_w": 8320
+    }
+   ]
+  },
+  {
+   "name": "R21",
+   "units": 42,
+   "used_u": 28,
+   "devices": 18,
+   "allocated_w": 7822,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R21-pduA",
+     "feed": "A",
+     "capacity_w": 5864,
+     "normal_w": 3907,
+     "failover_w": 7822
+    },
+    {
+     "name": "R21-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 3907,
+     "failover_w": 7822
+    }
+   ]
+  },
+  {
+   "name": "R22",
+   "units": 42,
+   "used_u": 28,
+   "devices": 17,
+   "allocated_w": 8029,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R22-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 3887,
+     "failover_w": 7777
+    },
+    {
+     "name": "R22-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 3887,
+     "failover_w": 7777
+    }
+   ]
+  },
+  {
+   "name": "R23",
+   "units": 42,
+   "used_u": 30,
+   "devices": 20,
+   "allocated_w": 8309,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R23-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 4151,
+     "failover_w": 8309
+    },
+    {
+     "name": "R23-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 4151,
+     "failover_w": 8309
+    }
+   ]
+  },
+  {
+   "name": "R24",
+   "units": 42,
+   "used_u": 29,
+   "devices": 18,
+   "allocated_w": 8241,
+   "power_w": 12000,
+   "pdus": [
+    {
+     "name": "R24-pduA",
+     "feed": "A",
+     "capacity_w": 16000,
+     "normal_w": 3982,
+     "failover_w": 7970
+    },
+    {
+     "name": "R24-pduB",
+     "feed": "B",
+     "capacity_w": 16000,
+     "normal_w": 3982,
+     "failover_w": 7970
+    }
+   ]
+  }
+ ],
+ "accuracy": {
+  "rules": {
+   "overlap": {
+    "injected": 0,
+    "found": 0,
+    "missed": 0,
+    "extra": 0
+   },
+   "out_of_rack": {
+    "injected": 0,
+    "found": 0,
+    "missed": 0,
+    "extra": 0
+   },
+   "double_connected": {
+    "injected": 1,
+    "found": 1,
+    "missed": 0,
+    "extra": 0
+   },
+   "open_cable": {
+    "injected": 1,
+    "found": 1,
+    "missed": 0,
+    "extra": 0
+   },
+   "kind_mismatch": {
+    "injected": 2,
+    "found": 2,
+    "missed": 0,
+    "extra": 0
+   },
+   "self_loop": {
+    "injected": 0,
+    "found": 0,
+    "missed": 0,
+    "extra": 0
+   },
+   "no_power": {
+    "injected": 2,
+    "found": 2,
+    "missed": 0,
+    "extra": 0
+   },
+   "single_feed": {
+    "injected": 1,
+    "found": 1,
+    "missed": 0,
+    "extra": 0
+   },
+   "same_feed": {
+    "injected": 2,
+    "found": 2,
+    "missed": 0,
+    "extra": 0
+   },
+   "rack_power": {
+    "injected": 2,
+    "found": 2,
+    "missed": 0,
+    "extra": 0
+   },
+   "pdu_overload": {
+    "injected": 0,
+    "found": 0,
+    "missed": 0,
+    "extra": 0
+   },
+   "failover_overload": {
+    "injected": 1,
+    "found": 1,
+    "missed": 0,
+    "extra": 0
+   }
+  },
+  "injected": 12,
+  "found": 12,
+  "missed": [],
+  "extra": [],
+  "faults": [
+   {
+    "kind": "rack_power",
+    "subject": "R12",
+    "rack": "R12",
+    "detail": "R12-srv-1u-17 raised to 6847 W: 7862 -> about 13083 W allocated"
+   },
+   {
+    "kind": "same_feed",
+    "subject": "R06-srv-1u-07",
+    "rack": "R06",
+    "detail": "psu1 of R06-srv-1u-07 moved from feed B to feed A"
+   },
+   {
+    "kind": "failover_overload",
+    "subject": "R21-pduA",
+    "rack": "R21",
+    "detail": "capacity of R21-pduA (5864 W) is below the 7822 W it would carry alone"
+   },
+   {
+    "kind": "no_power",
+    "subject": "R22-srv-1u-01",
+    "rack": "R22",
+    "detail": "both power cables of R22-srv-1u-01 removed"
+   },
+   {
+    "kind": "kind_mismatch",
+    "subject": "cable:1955",
+    "rack": "R11",
+    "detail": "network cable 1955 from R11-srv-1u-04:eth2 to a PDU outlet"
+   },
+   {
+    "kind": "open_cable",
+    "subject": "cable:1956",
+    "rack": "R15",
+    "detail": "cable 1956 plugged in at one end"
+   },
+   {
+    "kind": "no_power",
+    "subject": "R24-srv-1u-16",
+    "rack": "R24",
+    "detail": "both power cables of R24-srv-1u-16 removed"
+   },
+   {
+    "kind": "double_connected",
+    "subject": "R03-srv-1u-06:eth0",
+    "rack": "R03",
+    "detail": "R03-gpu-4u-14:eth2 also plugged into R03-srv-1u-06:eth0"
+   },
+   {
+    "kind": "kind_mismatch",
+    "subject": "cable:1958",
+    "rack": "R09",
+    "detail": "network cable 1958 from R09-srv-2u-12:eth2 to a PDU outlet"
+   },
+   {
+    "kind": "rack_power",
+    "subject": "R14",
+    "rack": "R14",
+    "detail": "R14-gpu-4u-08 raised to 8520 W: 8056 -> about 13428 W allocated"
+   },
+   {
+    "kind": "single_feed",
+    "subject": "R17-srv-1u-11",
+    "rack": "R17",
+    "detail": "the feed B cable of R17-srv-1u-11 removed"
+   },
+   {
+    "kind": "same_feed",
+    "subject": "R07-srv-2u-04",
+    "rack": "R07",
+    "detail": "psu1 of R07-srv-2u-04 moved from feed B to feed A"
+   }
+  ]
+ }
+}
